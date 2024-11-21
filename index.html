@@ -1,102 +1,318 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Software Engineer Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-  <!-- Header Section -->
-  <header class="header">
-    <div class="container">
-      <h1>Marcos Cervantes Villagomez</h1>
-      <p>Software Engineer | Full-Stack Developer</p>
-      <div class="social-links">
-        <a href="https://github.com/MarcosCr720"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/marcos-cervantes-villagomez-228475328/"><i class="fab fa-linkedin"></i></a>
-       
-      </div>
-    </div>
-  </header>
+<html lang="en" id="top">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Williams Samuel is a self-taught Frontend and Mobile (Android & IOS - Cross Platform) Developer based in Lagos State, Nigeria, who is passionate about web and mobile development." />
+		<meta
+			name="keywords"
+			content="Frontend Developer, Mobile Developer, Open Source, Freelance Web Developer, Freelance Mobile Developer, React Native Developer, Developer Portfolio" />
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I am a Software Engineering student with a focus on programming in C++ and Java, as well as web development and database administration. My interest in electricity, 
-        magnetism, and mechanics has expanded my ability to approach technical problems from multiple angles. I enjoy exploring new technologies and developing interactive applications, such as video games in Unity, 
-        where I apply my understanding of physics to create realistic gaming experiences. 
-        I am seeking opportunities to apply my skills and knowledge in projects that challenge my creativity and allow me to grow as a professional in the technology field.
-      </p>
-    </div>
-  </section>
+		<meta name="description" content="Page description" />
+		<meta property="og:title" content="Williams Samuel - Frontend Developer" />
+		<meta
+			property="og:description"
+			content="Williams Samuel is a self-taught Frontend Web Developer based in Lagos State, Nigeria,  who specializes in building exceptional digital experience and passionate about web and mobile development." />
+		<meta
+			property="og:image"
+			content="022000700.jpg" />
+		<meta property="og:image:alt" content="Marcos Cervantes Villagomez" />
+		<meta property="og:locale" content="en_GB" />
+		<meta property="og:type" content="website" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="og:url" content="img/022000700.jpg" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="robots" content="index, follow" />
 
-  <!-- Skills Section -->
-  <section id="skills" class="skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <div class="skills-list">
-        <div class="skill">JavaScript</div>
-        <div class="skill">Python</div>
-        <div class="skill">React.js</div>
-        <div class="skill">Node.js</div>
-        <div class="skill">SQL</div>
-        <div class="skill">Git</div>
-      </div>
-    </div>
-  </section>
+		<link rel="icon" href="img/022000700.jpg" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="img/istockphoto-956073060-612x612.jpg" />
+		<link rel="stylesheet" href="styles.css" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="projects-list">
-        <div class="project-card">
-          <img src="img/image.png" alt="Project 1">
-          <h3>Online point of sale</h3>
-          <p>Develops a point of sale for a company that sells parts to modify cars</p>
-        </div>
-        <div class="project-card">
-          <img src="img/Screenshot 2024-11-20 222318.png" alt="Project 2">
-          <h3>website for advertising</h3>
-          <p>what was done to what is a website for advertising to a country</p>
-        </div>
-        <div class="project-card">
-          <img src="img/Screenshot 2024-11-20 223158.png" alt="Project 3">
-          <h3>website for advertising</h3>
-          <p>What was done to what is a website for advertising a movie</p>
-        </div>
-        
+		<!-- boxicons -->
+		<script src="img/istockphoto-956073060-612x612.jpg"></script>
+		<script src="./script.js" defer></script>
+		<title>Marcos Cervantes Villagomez - Developer</title>
+	</head>
+	<body>
+		<!-- only for keyboard users -->
+		<a class="skip-to-content" href="#main-content">Skip to content</a>
+
+		<header class="main-header">
+			<nav class="nav slide-in-top">
+				<div class="container">
+					<a href="#">
+						<img src="img/022000700.jpg" alt="williams" class="logo" />
+						<title>Logo</title>
+					</a>
+
+					<ul class="nav-list">
+						<li>
+							<a href="#about" class="nav-links hover-effect">About</a>
+						</li>
+						<li>
+							<a href="#skills" class="nav-links hover-effect">Skills</a>
+						</li>
+						<li>
+							<a href="#projects" class="nav-links hover-effect">Projects</a>
+						</li>
+						<li>
+							<a href="#contact" class="nav-links hover-effect">Contact</a>
+						</li>
+					</ul>
+
+					<ul class="social-nav">
+						<li>
+							<a
+								href="img/istockphoto-956073060-612x612.jpg"
+								rel="noreferrer"
+								target="_blank"
+								aria-label="link to linkedin profile"
+								><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="18"
+									height="18"
+									viewBox="0 0 24 24"
+									style="fill: currentColor">
+									<circle cx="4.983" cy="5.009" r="2.188"></circle>
+									<path
+										d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://github.com/MarcosCr720"
+								rel="noreferrer"
+								target="_blank"
+								aria-label="link to github account"
+								><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="18"
+									height="18"
+									viewBox="0 0 24 24"
+									style="fill: currentColor">
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path>
+								</svg>
+							</a>
+						</li>
+					</ul>
+
+					<div class="hamburger">
+						<div class="line-menu half start"></div>
+						<div class="line-menu"></div>
+						<div class="line-menu half end"></div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main id="main-content">
+			<!-- hero section -->
+			<section class="hero">
+				<div class="container">
+					<article class="hero-text bounce-in-left">
+						<div>
+							<p class="subtitle">hi there 👋🏽, i'm</p>
+							<h1 class="name">Marcoos Cervantes Villagomez</h1>
+						</div>
+						<div>
+							<p class="intro">
+								A Lagos, Nigeria based self-taught Frontend Developer who
+								specializes in building exceptional digital experience.
+							</p>
+
+							<div class="hero-btn-container">
+								<a href="mailto:marcos.cvford@gmail.com" class="btn hire-btn">
+									Hire Me
+								</a>
+								<!-- <a href="#" download="" class="btn download-link"
+									>Download CV</a
+								> -->
+							</div>
+						</div>
+					</article>
+					<img
+						src="img/istockphoto-956073060-612x612.jpg"
+						alt="coding desk"
+						class="fade-in code" />
+				</div>
+			</section>
+
+			<!-- about section -->
+			<section class="about-me" id="about">
+				<div class="container" data-aos="fade-up">
+					<img src="img/022000700.jpg" alt="Williams Samuel" />
+					<article>
+						<p class="subtitle">Who is Williams Samuel?</p>
+						<h2 class="title">A Bit About Me</h2>
+						<div class="about">
+							<p>
+								I am a Software Engineering student with a focus on programming in C++ and Java, as well as web development and database administration. My interest in electricity, 
+        magnetism, and mechanics has expanded my ability to approach technical problems from multiple angles. 
+							</p>
+							<p>
+                I enjoy exploring new technologies and developing interactive applications, such as video games in Unity, 
+                where I apply my understanding of physics to create realistic gaming experiences. 
+                I am seeking opportunities to apply my skills and knowledge in projects that challenge my creativity and allow me to grow as a professional in the technology field.
+							</p>
+							
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- my skills -->
+			<section class="my-skills" id="skills" data-aos="fade-up">
+				<div class="container">
+					<article>
+						<p class="subtitle">My Skills</p>
+						<h2 class="title">Technologies I Work With</h2>
+
+						<p class="info">
+              I've taken a number of online courses, currently getting my 
+              hands dirty with 
+              <strong>React & Next.js</strong>, and here are a few 
+              technologies I’ve been working with recently:
+          </p>
+          
+					</article>
+					<ul>
+						<li>HTML & CSS</li>
+						<li>Javascript (ES6+)</li>
+						<li>React Js</li>
+						<li>Next Js</li>
+						<li>Git</li>
+						<li>React</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- projects section -->
+			<section class="projects-section" id="projects">
+				<div class="container">
+					<article data-aos="fade-up">
+						<p class="subtitle">My projects</p>
+						<h2 class="title">Some Things I Built</h2>
+						<p class="info">
+							I like to stay busy and always have a project in the works. Take a
+							look at some of the applications I've have built
+						</p>
+					</article>
+					<section class="projects">
+						<!-- 01 -->
+						<article class="project">
+							<img
+									src="img/image.png"
+									alt="the movieflix screenshot"
+									title="the/movieflix"
+							/></a>
+							<div>
+								<h3>01</h3>
+								<h2>TuningParts</h2>
+								<p>
+									It is an online point of sale for car modifications so that everything can reach your home safely and with a variety of products.
+								</p>
+								<ul class="tech-stack">
+									<li>Html</li>
+									<li>CSS</li>
+									<li>php</li>
+									<li>MSQL</li>
+									<li>Javascript</li>
+
+								</ul>
+								
+							</div>
+						</article>
+
+						<!-- 02 -->
+						<article class="project">
+							<img
+									src="img/Screenshot 2024-11-20 223158.png"
+									alt="the movieflix screenshot"
+									title="the/movieflix"
+							/></a>
+							<div>
+								<h3>02</h3>
+								<h2>Gran Turismo</h2>
+								<p>
+									It's to look at things that didn't appear in the movie behind those scenes.
+								</p>
+								<ul class="tech-stack">
+									<li>Javascript</li>
+									<li>HTML 5</li>
+									<li>CSS</li>
+								</ul>
+								
+							</div>
+						</article>
 
 
+						<!-- 05 -->
+						
 
+					</section>
 
+					<!-- others -->
+					
 
-                 
-      </div>
-    </div>
-  </section>
+			<!-- contact section -->
+			<section class="contact" data-aos="fade-up">
+				<div class="container">
+					<p class="subtitle">Have a project? or just looking to hire?</p>
+					<h2 class="title">Let's Work Together</h2>
+					<p class="info">
+						Feel free to reach out if you're looking to hire, just want to
+						connect or see if we can build something amazing together.
+					</p>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>If you'd like to work with me or have any questions, feel free to reach out!</p>
-      <div class="contact-info">
-        <p>Email: marcos.cvford@gmail.com</p>
-        <p>Phone: +52 442 609 3033 </p>
-      </div>
-    </div>
-  </section>
+					<div>
+						<a href="marcos.cvford@gmail.com" class="mail-link hover-effect"
+							>Get in touch →</a
+						>
+						<!-- <small>(or copy) samwill300@gmail.com</small> -->
+					</div>
+				</div>
+			</section>
+		</main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2024 Marcos Cervantes Villagomez. All Rights Reserved.</p>
-    </div>
-  </footer>
-</body>
+		<footer class="footer" id="contact">
+			<div class="container">
+				<p>&copy; <span id="date"></span> Marcos Cervantes Villagomez</p>
+				<div>
+					<ul>
+						<li>
+							<a
+								href="https://github.com/MarcosCr720"
+								rel="noreferrer"
+								target="_blank"
+								class="hover-effect"
+								>github</a
+							>
+						</li>
+						
+					</ul>
+					<a href="#top" class="top">
+						<p class="scroll">scroll <span>to top</span></p>
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: currentColor">
+							<title>scroll to top</title>
+							<path
+								d="m6.293 11.293 1.414 1.414L12 8.414l4.293 4.293 1.414-1.414L12 5.586z"></path>
+							<path
+								d="m6.293 16.293 1.414 1.414L12 13.414l4.293 4.293 1.414-1.414L12 10.586z"></path>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
